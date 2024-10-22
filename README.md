@@ -20,17 +20,17 @@ The transceiver used to run the example is **MCP2562FD** for each node (board).
 
 ![Alt text](_htmresc/Transceiver.png)
 
-## How to run this example
+## How to use this example
 
-You need to connect two nodes (boards) as shown below:
+Build the project corresponding to your STM32 board, then load the generated image into memory. You need to connect two nodes (boards) as shown below:
 
 ![Alt text](_htmresc/CAN_bus_structure.png)
 
-Each time the user button of one node is pressed, an FDCAN frame is transmitted to the other node, causing its LED to toggle once.
+Each time the user button of one node is pressed, a FDCAN frame is transmitted to the other node, causing its LED to toggle once.
 
 ## Additional resources
 
-Please refer to this article _(link to be available soon)_ for the timing configuration and the hardware setup to correctly run this example on a specific platform.
+Please refer to [this](https://community.st.com/t5/stm32-mcus/stm32-fdcan-running-at-8-mb-s-on-nucleo-boards/ta-p/730281) article for the timing configuration and the hardware setup to correctly run this example on a specific platform.
 
 ## Troubleshooting
 
