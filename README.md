@@ -1,4 +1,4 @@
-# FDCAN example at 8Mb/s on several platforms
+# FDCAN example at 8Mb/s on several STM32 platforms
 
 ## Summary
 
